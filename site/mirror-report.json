@@ -1,0 +1,1048 @@
+{
+  "source": "https://onemilligram.com/",
+  "mirroredAt": "2026-08-10T06:27:44.517Z",
+  "downloaded": 277,
+  "skipped": [
+    {
+      "url": "https://onemilligram.com/wp-content/themes/avista/assets/img/hero/h2-masking-img.png",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.eot",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.woff",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.eot",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.svg",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.eot?",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.eot?",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.woff",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.eot",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.eot?",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.svg",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.svg",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.woff",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.eot",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.eot?",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.woff",
+      "reason": "404 Not Found"
+    },
+    {
+      "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.svg",
+      "reason": "404 Not Found"
+    }
+  ],
+  "failed": [],
+  "optimizedAt": "2026-08-10T06:27:53.377Z",
+  "optimization": {
+    "assetsRemoved": {
+      "bytes": 11084357,
+      "files": 189
+    },
+    "css": {
+      "bundledBytes": 105509,
+      "criticalBytes": 118557,
+      "duplicates": [
+        {
+          "href": "/wp-content/themes/avista/assets/css/avista-custom.css?ver=7.0.3",
+          "id": "avista-primary-color-css",
+          "reason": "duplicate-href"
+        },
+        {
+          "href": "/wp-content/plugins/avista-core/assets/css/flaticon-avista.css?ver=1.0.3",
+          "id": "elementor-icons-element-helper-flaticon-css",
+          "reason": "duplicate-href"
+        },
+        {
+          "href": "/wp-content/plugins/avista-core/assets/css/font-awesome.min.css?ver=1.0.3",
+          "id": "elementor-icons-element-helper-icons-css",
+          "reason": "duplicate-href"
+        }
+      ],
+      "inputBytes": 841480,
+      "iconFonts": {
+        "details": [
+          {
+            "family": "Font Awesome 6 Brands",
+            "inputBytes": 118072,
+            "outputBytes": 708,
+            "path": "/assets/fonts/fa-brands-400-icons.aa34e1b78ce0.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-brands-400.woff2",
+            "style": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "inputBytes": 25464,
+            "outputBytes": 712,
+            "path": "/assets/fonts/fa-regular-400-icons.060d7667eebb.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-regular-400.woff2",
+            "style": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "inputBytes": 157192,
+            "outputBytes": 1156,
+            "path": "/assets/fonts/fa-solid-900-icons.ba6f4abafb6a.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-solid-900.woff2",
+            "style": "normal",
+            "weight": "900"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "inputBytes": 118072,
+            "outputBytes": 708,
+            "path": "/assets/fonts/fa-brands-400-icons.aa34e1b78ce0.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-brands-400.woff2",
+            "style": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "FontAwesome",
+            "inputBytes": 157192,
+            "outputBytes": 1156,
+            "path": "/assets/fonts/fa-solid-900-icons.ba6f4abafb6a.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-solid-900.woff2",
+            "style": "normal",
+            "weight": "normal"
+          },
+          {
+            "family": "FontAwesome",
+            "inputBytes": 118072,
+            "outputBytes": 708,
+            "path": "/assets/fonts/fa-brands-400-icons.aa34e1b78ce0.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-brands-400.woff2",
+            "style": "normal",
+            "weight": "normal"
+          },
+          {
+            "family": "FontAwesome",
+            "inputBytes": 25464,
+            "outputBytes": 712,
+            "path": "/assets/fonts/fa-regular-400-icons.060d7667eebb.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-regular-400.woff2",
+            "style": "normal",
+            "weight": "normal"
+          },
+          {
+            "family": "FontAwesome",
+            "inputBytes": 4800,
+            "outputBytes": 500,
+            "path": "/assets/fonts/fa-v4compatibility-icons.ca592f7c0554.woff2",
+            "source": "/wp-content/themes/avista/assets/fonts/fa-v4compatibility.woff2",
+            "style": "normal",
+            "weight": "normal"
+          },
+          {
+            "family": "flaticon_avista",
+            "inputBytes": 4816,
+            "outputBytes": 664,
+            "path": "/assets/fonts/flaticon_avista-icons.fb709066866d.woff2",
+            "source": "/wp-content/plugins/avista-core/assets/fonts/flaticon_avista.woff2",
+            "style": "normal",
+            "weight": "normal"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "inputBytes": 109100,
+            "outputBytes": 688,
+            "path": "/assets/fonts/fa-brands-400-icons.7e6255147781.woff2",
+            "source": "/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.woff2",
+            "style": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "inputBytes": 432524,
+            "outputBytes": 1376,
+            "path": "/assets/fonts/fa-light-300-icons.7cc1553c3373.woff2",
+            "source": "/wp-content/plugins/avista-core/assets/fonts/fa-light-300.woff2",
+            "style": "normal",
+            "weight": "300"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "inputBytes": 392560,
+            "outputBytes": 1348,
+            "path": "/assets/fonts/fa-regular-400-icons.729b877c079e.woff2",
+            "source": "/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.woff2",
+            "style": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "inputBytes": 320532,
+            "outputBytes": 1144,
+            "path": "/assets/fonts/fa-solid-900-icons.2688190c5393.woff2",
+            "source": "/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.woff2",
+            "style": "normal",
+            "weight": "900"
+          }
+        ],
+        "glyphCodePoints": [
+          "U+E07B",
+          "U+F005",
+          "U+F061",
+          "U+F067",
+          "U+F0C9",
+          "U+F0E1",
+          "U+F103",
+          "U+F106",
+          "U+F10D",
+          "U+F111",
+          "U+F112",
+          "U+F178",
+          "U+F35D"
+        ],
+        "glyphCount": 13,
+        "inputBytes": 1565060,
+        "outputBytes": 8296,
+        "savingsBytes": 1556764,
+        "uniqueInputFonts": 9,
+        "uniqueOutputFonts": 9
+      },
+      "heroInlineFontBytes": 15584,
+      "rejectedSelectors": 8271,
+      "removed": [
+        {
+          "href": "/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.5.3",
+          "id": "woocommerce-layout-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.5.3",
+          "id": "woocommerce-smallscreen-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.5.3",
+          "id": "woocommerce-general-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/themes/avista/assets/css/animate-min.css?ver=1.0.0",
+          "id": "animate-min-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/themes/avista/assets/css/magnific-popup.css?ver=1.0.0",
+          "id": "magnific-popup-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/themes/avista/assets/css/swiper.min.css?ver=1.0.0",
+          "id": "swiper-min-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/themes/avista/assets/css/odometer.min.css?ver=7.0.3",
+          "id": "odometer-min.css-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/themes/avista/woocommerce/woocommerce.css?ver=7.0.3",
+          "id": "woocommerce-style-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0",
+          "id": "elementor-icons-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/external/fonts.googleapis.com/css-85c5c2b0d1.css",
+          "id": "elementor-gf-roboto-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/external/fonts.googleapis.com/css-ec7864c0ce.css",
+          "id": "elementor-gf-robotoslab-css",
+          "reason": "proven-unused"
+        },
+        {
+          "href": "/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.5.3",
+          "id": "wc-blocks-style-css",
+          "reason": "proven-unused"
+        }
+      ],
+      "retainedStylesheets": 21,
+      "unavailableAssetDeclarationsRemoved": [
+        "/wp-content/themes/avista/assets/img/hero/h2-masking-img.png",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-light-300.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.woff",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.svg",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-light-300.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-light-300.woff",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.svg",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-light-300.svg",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.woff",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.eot",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.woff",
+        "/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.svg"
+      ],
+      "textFonts": [
+        {
+          "family": "Geist Mono",
+          "inputBytes": 23108,
+          "outputBytes": 14308,
+          "path": "/assets/fonts/geist-mono-normal.7c3dbca03a6e.woff2",
+          "style": "normal",
+          "weight": "100 900"
+        },
+        {
+          "family": "Inter",
+          "inputBytes": 79744,
+          "outputBytes": 48376,
+          "path": "/assets/fonts/inter-italic.5670380c385b.woff2",
+          "style": "italic",
+          "weight": "100 900"
+        },
+        {
+          "family": "Inter",
+          "inputBytes": 73016,
+          "outputBytes": 44932,
+          "path": "/assets/fonts/inter-normal.ae61e369ced6.woff2",
+          "style": "normal",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "images": {
+      "backend": "sharp 0.35.3",
+      "generatedBytes": 1310959,
+      "optimizedOriginalBytes": 5141275,
+      "pictureCount": 6,
+      "uniqueSourceCount": 5,
+      "sources": [
+        {
+          "height": 2260,
+          "inputBytes": 3257912,
+          "outputBytes": 955055,
+          "source": "/wp-content/uploads/2026/01/header-image.png",
+          "usageCount": 1,
+          "variants": {
+            "avif": [
+              {
+                "bytes": 12899,
+                "path": "/assets/images/header-image-320.ad7507882b63.avif",
+                "width": 320
+              },
+              {
+                "bytes": 22902,
+                "path": "/assets/images/header-image-480.26e935662860.avif",
+                "width": 480
+              },
+              {
+                "bytes": 40393,
+                "path": "/assets/images/header-image-768.78cf85ca99fd.avif",
+                "width": 768
+              },
+              {
+                "bytes": 55718,
+                "path": "/assets/images/header-image-1024.fc873d1f518e.avif",
+                "width": 1024
+              },
+              {
+                "bytes": 83636,
+                "path": "/assets/images/header-image-1440.71aadeddf277.avif",
+                "width": 1440
+              },
+              {
+                "bytes": 117827,
+                "path": "/assets/images/header-image-1997.529b9c5e704d.avif",
+                "width": 1997
+              }
+            ],
+            "webp": [
+              {
+                "bytes": 21632,
+                "path": "/assets/images/header-image-320.b57c65663146.webp",
+                "width": 320
+              },
+              {
+                "bytes": 38764,
+                "path": "/assets/images/header-image-480.f1aba9486b5b.webp",
+                "width": 480
+              },
+              {
+                "bytes": 75400,
+                "path": "/assets/images/header-image-768.92c5884283af.webp",
+                "width": 768
+              },
+              {
+                "bytes": 105006,
+                "path": "/assets/images/header-image-1024.43441f97e8cd.webp",
+                "width": 1024
+              },
+              {
+                "bytes": 159576,
+                "path": "/assets/images/header-image-1440.033bb4c712ab.webp",
+                "width": 1440
+              },
+              {
+                "bytes": 221302,
+                "path": "/assets/images/header-image-1997.8b817a4b4c9c.webp",
+                "width": 1997
+              }
+            ]
+          },
+          "width": 1997
+        },
+        {
+          "height": 728,
+          "inputBytes": 508573,
+          "outputBytes": 80854,
+          "source": "/wp-content/uploads/2026/01/Aizzat.png",
+          "usageCount": 2,
+          "variants": {
+            "avif": [
+              {
+                "bytes": 7199,
+                "path": "/assets/images/aizzat-320.7604e02a442d.avif",
+                "width": 320
+              },
+              {
+                "bytes": 12172,
+                "path": "/assets/images/aizzat-480.7a06ef74cc15.avif",
+                "width": 480
+              },
+              {
+                "bytes": 12573,
+                "path": "/assets/images/aizzat-486.b6e4c1679408.avif",
+                "width": 486
+              }
+            ],
+            "webp": [
+              {
+                "bytes": 11092,
+                "path": "/assets/images/aizzat-320.a1c8f73e2d83.webp",
+                "width": 320
+              },
+              {
+                "bytes": 18466,
+                "path": "/assets/images/aizzat-480.e1722afefc07.webp",
+                "width": 480
+              },
+              {
+                "bytes": 19352,
+                "path": "/assets/images/aizzat-486.b66d12f42706.webp",
+                "width": 486
+              }
+            ]
+          },
+          "width": 486
+        },
+        {
+          "height": 728,
+          "inputBytes": 499817,
+          "outputBytes": 98079,
+          "source": "/wp-content/uploads/2026/01/Afikh.png",
+          "usageCount": 1,
+          "variants": {
+            "avif": [
+              {
+                "bytes": 8672,
+                "path": "/assets/images/afikh-320.801694afb311.avif",
+                "width": 320
+              },
+              {
+                "bytes": 13738,
+                "path": "/assets/images/afikh-480.9d3b3a4b9c3b.avif",
+                "width": 480
+              },
+              {
+                "bytes": 14015,
+                "path": "/assets/images/afikh-486.b8e7625eccf8.avif",
+                "width": 486
+              }
+            ],
+            "webp": [
+              {
+                "bytes": 14828,
+                "path": "/assets/images/afikh-320.73ee6f4e80a6.webp",
+                "width": 320
+              },
+              {
+                "bytes": 23004,
+                "path": "/assets/images/afikh-480.371d7c3759eb.webp",
+                "width": 480
+              },
+              {
+                "bytes": 23822,
+                "path": "/assets/images/afikh-486.4da13926cc93.webp",
+                "width": 486
+              }
+            ]
+          },
+          "width": 486
+        },
+        {
+          "height": 728,
+          "inputBytes": 415385,
+          "outputBytes": 70750,
+          "source": "/wp-content/uploads/2026/01/Athirah.png",
+          "usageCount": 1,
+          "variants": {
+            "avif": [
+              {
+                "bytes": 7039,
+                "path": "/assets/images/athirah-320.e7153ae9df85.avif",
+                "width": 320
+              },
+              {
+                "bytes": 10810,
+                "path": "/assets/images/athirah-480.23a0a08f5902.avif",
+                "width": 480
+              },
+              {
+                "bytes": 11025,
+                "path": "/assets/images/athirah-486.7c1317b993e3.avif",
+                "width": 486
+              }
+            ],
+            "webp": [
+              {
+                "bytes": 10056,
+                "path": "/assets/images/athirah-320.a56acfb40a94.webp",
+                "width": 320
+              },
+              {
+                "bytes": 15672,
+                "path": "/assets/images/athirah-480.759715c24b86.webp",
+                "width": 480
+              },
+              {
+                "bytes": 16148,
+                "path": "/assets/images/athirah-486.853a89b7c96d.webp",
+                "width": 486
+              }
+            ]
+          },
+          "width": 486
+        },
+        {
+          "height": 728,
+          "inputBytes": 459588,
+          "outputBytes": 106221,
+          "source": "/wp-content/uploads/2026/02/Sarah-OMG-2.png",
+          "usageCount": 1,
+          "variants": {
+            "avif": [
+              {
+                "bytes": 9487,
+                "path": "/assets/images/sarah-omg-2-320.f7faba6b2b17.avif",
+                "width": 320
+              },
+              {
+                "bytes": 15454,
+                "path": "/assets/images/sarah-omg-2-480.f19f2c730b04.avif",
+                "width": 480
+              },
+              {
+                "bytes": 15676,
+                "path": "/assets/images/sarah-omg-2-486.06d725d9cebd.avif",
+                "width": 486
+              }
+            ],
+            "webp": [
+              {
+                "bytes": 15532,
+                "path": "/assets/images/sarah-omg-2-320.0b0aa9f3a72a.webp",
+                "width": 320
+              },
+              {
+                "bytes": 24678,
+                "path": "/assets/images/sarah-omg-2-480.f1365154d89e.webp",
+                "width": 480
+              },
+              {
+                "bytes": 25394,
+                "path": "/assets/images/sarah-omg-2-486.a91c70dffb37.webp",
+                "width": 486
+              }
+            ]
+          },
+          "width": 486
+        }
+      ]
+    },
+    "raw": {
+      "bytes": 19763735,
+      "files": 249
+    },
+    "optimized": {
+      "bytes": 10583066,
+      "files": 116
+    },
+    "savings": {
+      "bytes": 9180669,
+      "percent": 46.45
+    },
+    "scripts": {
+      "removed": [
+        {
+          "id": "jquery-core-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        },
+        {
+          "id": "jquery-migrate-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        },
+        {
+          "id": "wc-jquery-blockui-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.5.3"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "wc-add-to-cart-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.5.3"
+        },
+        {
+          "id": "wc-js-cookie-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.5.3"
+        },
+        {
+          "id": "",
+          "reason": "anonymous-inline-initializer"
+        },
+        {
+          "id": "",
+          "reason": "anonymous-inline-initializer"
+        },
+        {
+          "id": "",
+          "reason": "anonymous-inline-initializer"
+        },
+        {
+          "id": "wp-hooks-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"
+        },
+        {
+          "id": "wp-i18n-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"
+        },
+        {
+          "id": "wp-i18n-js-after",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "contact-form-7-js-before",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "woocommerce-js-extra",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "woocommerce-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.5.3"
+        },
+        {
+          "id": "cookieadmin_js-js-extra",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "cookieadmin_js-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/cookieadmin/assets/js/consent.js?ver=1.1.4"
+        },
+        {
+          "id": "bootstrap-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/bootstrap-min.js?ver=7.0.3"
+        },
+        {
+          "id": "swiper-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/swiper.min.js?ver=7.0.3"
+        },
+        {
+          "id": "wow-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/wow-min.js?ver=7.0.3"
+        },
+        {
+          "id": "odometer-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/odometer.min.js?ver=7.0.3"
+        },
+        {
+          "id": "nice-select-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/nice-select.min.js?ver=7.0.3"
+        },
+        {
+          "id": "jquery-marquee-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/jquery.marquee.min.js?ver=7.0.3"
+        },
+        {
+          "id": "magnific-popup-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/magnific-popup.min.js?ver=7.0.3"
+        },
+        {
+          "id": "SplitText-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/SplitText.min.js?ver=7.0.3"
+        },
+        {
+          "id": "customEase-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/customEase.min.js?ver=7.0.3"
+        },
+        {
+          "id": "appear-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/appear.js?ver=7.0.3"
+        },
+        {
+          "id": "pixi-min-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/pixi.min.js?ver=7.0.3"
+        },
+        {
+          "id": "cursor-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/cursor.js?ver=7.0.3"
+        },
+        {
+          "id": "touchspin-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/touchspin.js?ver=7.0.3"
+        },
+        {
+          "id": "avista-custom-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/avista-custom.js?ver=7.0.3"
+        },
+        {
+          "id": "avista-core-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/themes/avista/assets/js/avista-core.js?ver=1.0.0"
+        },
+        {
+          "id": "sourcebuster-js-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.5.3"
+        },
+        {
+          "id": "wc-order-attribution-js-extra",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "wc-order-attribution-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.5.3"
+        },
+        {
+          "id": "cookieadmin_pro_js-js-extra",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "elementor-webpack-runtime-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.4"
+        },
+        {
+          "id": "elementor-frontend-modules-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.4"
+        },
+        {
+          "id": "jquery-ui-core-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+        },
+        {
+          "id": "elementor-frontend-js-before",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "elementor-frontend-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.4"
+        },
+        {
+          "id": "elh-element-helper-js",
+          "reason": "replaced-by-clone-runtime",
+          "src": "/wp-content/plugins/avista-core/assets/js/elh-element.js?ver=1.0.3"
+        },
+        {
+          "id": "wp-emoji-settings",
+          "reason": "legacy-inline-initializer"
+        },
+        {
+          "id": "",
+          "reason": "anonymous-inline-initializer"
+        }
+      ],
+      "retained": [
+        {
+          "bytes": 10445,
+          "id": "lenis-min-js",
+          "path": "/assets/scripts/lenis-min.228a4541f3c2.js"
+        },
+        {
+          "bytes": 72224,
+          "id": "gsap-min-js",
+          "path": "/assets/scripts/gsap-min.61e0255f067b.js"
+        },
+        {
+          "bytes": 40606,
+          "id": "scrollTrigger-min-js",
+          "path": "/assets/scripts/scrolltrigger-min.e0d7940abaa4.js"
+        },
+        {
+          "bytes": 61335,
+          "id": "clone-runtime",
+          "path": "/assets/scripts/clone-runtime.a8bca513dad9.js"
+        }
+      ]
+    },
+    "compression": {
+      "brotliFiles": 8,
+      "gzipFiles": 8
+    },
+    "assetManifest": "/asset-manifest.json"
+  },
+  "removedDependencies": [
+    "woocommerce-layout-css",
+    "woocommerce-smallscreen-css",
+    "woocommerce-general-css",
+    "animate-min-css",
+    "magnific-popup-css",
+    "swiper-min-css",
+    "odometer-min.css-css",
+    "woocommerce-style-css",
+    "elementor-icons-css",
+    "elementor-gf-roboto-css",
+    "elementor-gf-robotoslab-css",
+    "wc-blocks-style-css",
+    "avista-primary-color-css",
+    "elementor-icons-element-helper-flaticon-css",
+    "elementor-icons-element-helper-icons-css",
+    "jquery-core-js",
+    "jquery-migrate-js",
+    "wc-jquery-blockui-js",
+    "wc-add-to-cart-js-extra",
+    "wc-add-to-cart-js",
+    "wc-js-cookie-js",
+    "anonymous-inline-initializer",
+    "anonymous-inline-initializer",
+    "anonymous-inline-initializer",
+    "wp-hooks-js",
+    "wp-i18n-js",
+    "wp-i18n-js-after",
+    "contact-form-7-js-before",
+    "woocommerce-js-extra",
+    "woocommerce-js",
+    "cookieadmin_js-js-extra",
+    "cookieadmin_js-js",
+    "bootstrap-min-js",
+    "swiper-min-js",
+    "wow-min-js",
+    "odometer-min-js",
+    "nice-select-min-js",
+    "jquery-marquee-min-js",
+    "magnific-popup-min-js",
+    "SplitText-min-js",
+    "customEase-min-js",
+    "appear-js",
+    "pixi-min-js",
+    "cursor-js",
+    "touchspin-js",
+    "avista-custom-js",
+    "avista-core-js",
+    "sourcebuster-js-js",
+    "wc-order-attribution-js-extra",
+    "wc-order-attribution-js",
+    "cookieadmin_pro_js-js-extra",
+    "elementor-webpack-runtime-js",
+    "elementor-frontend-modules-js",
+    "jquery-ui-core-js",
+    "elementor-frontend-js-before",
+    "elementor-frontend-js",
+    "elh-element-helper-js",
+    "wp-emoji-settings",
+    "anonymous-inline-initializer"
+  ],
+  "missingAssets": {
+    "optimized": [],
+    "sourceSkipped": [
+      {
+        "url": "https://onemilligram.com/wp-content/themes/avista/assets/img/hero/h2-masking-img.png",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.eot",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.woff",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.eot",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.svg",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.eot?",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-brands-400.eot?",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.woff",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.eot",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.eot?",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.svg",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-light-300.svg",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.woff",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-regular-400.eot",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.eot?",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.woff",
+        "reason": "404 Not Found"
+      },
+      {
+        "url": "https://onemilligram.com/wp-content/plugins/avista-core/assets/fonts/fa-solid-900.svg",
+        "reason": "404 Not Found"
+      }
+    ]
+  },
+  "performanceBudgetResults": {
+    "budgets": {
+      "bytes": 2621440,
+      "cls": 0.1,
+      "desktopPerformance": 95,
+      "lcp": 2500,
+      "mobilePerformance": 85,
+      "requests": 60,
+      "tbt": 200
+    },
+    "checkedAt": "2026-08-10T06:31:16.601Z",
+    "passed": true,
+    "profiles": [
+      {
+        "failures": [],
+        "metrics": {
+          "bytes": 432142,
+          "cls": 0.029126005639305348,
+          "lcp": 1955.9810000000002,
+          "performance": 99,
+          "requests": 28,
+          "tbt": 9.5
+        },
+        "passed": true,
+        "profile": "mobile"
+      },
+      {
+        "failures": [],
+        "metrics": {
+          "bytes": 689865,
+          "cls": 0.0671938215877915,
+          "lcp": 507.4600749999999,
+          "performance": 99,
+          "requests": 33,
+          "tbt": 0
+        },
+        "passed": true,
+        "profile": "desktop"
+      }
+    ]
+  },
+  "motionManifest": "/motion-manifest.json",
+  "preservedCookiePolicy": true,
+  "validation": {
+    "missingAssets": [],
+    "scriptCount": 0,
+    "stylesheetCount": 2
+  }
+}

@@ -1,0 +1,354 @@
+/* Interaction-only styles for the optimized static clone. Visual styling stays in page CSS. */
+html {
+  overflow-x: clip;
+}
+
+/* Intrinsic attributes reserve space before paint; responsive page CSS still
+   owns the rendered height once the image participates in layout. */
+img[data-clone-dimensions="true"] {
+  height: auto;
+}
+
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+html.omg-scroll-locked,
+html.omg-scroll-locked body {
+  overflow: hidden;
+}
+
+.tab-pane:not(.active),
+.accordion-collapse[hidden] {
+  display: none !important;
+}
+
+.tab-pane.fade {
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+
+.tab-pane.fade.show {
+  opacity: 1;
+}
+
+.accordion-collapse.omg-collapsing {
+  display: block !important;
+  overflow: clip;
+  will-change: height, opacity;
+}
+
+.omg-word,
+.omg-char {
+  display: inline-block;
+}
+
+.omg-word {
+  white-space: nowrap;
+}
+
+/* Split wrappers must not become semantic emphasis. The original blog title
+   colors only its authored <span>; generated word/character spans inherit it. */
+.as-blog-1-left .title .omg-word,
+.as-blog-1-left .title .omg-char {
+  color: inherit;
+}
+
+.wa_title_spilt_1 .omg-word {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+/* The retained theme maps these effect classes directly to keyframes, which
+   otherwise makes every below-fold reveal run once at page load and again at
+   its real viewport trigger. The runtime owns their single compositor pass. */
+.wow.fadeIn,
+.wow.fadeInUp2,
+.wow.fadeInRight2,
+.wow.fadeInLeft2,
+.wow.backInUp2,
+.wow.slideInLeft,
+.wow.zoomIn {
+  animation-name: none !important;
+}
+
+.wa_magnetic_btn_1,
+.wa_magnetic_1_elm {
+  translate: var(--omg-magnetic-x, 0) var(--omg-magnetic-y, 0);
+  will-change: translate;
+}
+
+.wa_tilt_elm {
+  transform: perspective(1000px) rotateY(var(--omg-tilt-y, 0deg));
+  transform-origin: center;
+  transition: transform 160ms ease-out;
+  will-change: transform;
+}
+
+.wa_marquee_left_nopause,
+.wa_marquee_right_nopause {
+  display: flex !important;
+  width: max-content;
+  max-width: none;
+  animation-duration: var(--omg-marquee-duration, 24s);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  will-change: transform;
+}
+
+.wa_marquee_left_nopause {
+  animation-name: omg-marquee-left;
+}
+
+.wa_marquee_right_nopause {
+  animation-name: omg-marquee-right;
+}
+
+/* jquery.marquee's inline-block track contributed an 8px baseline to each
+   crossed ribbon. Keep that exact page geometry with the compositor track. */
+.as-marquee-text-1-area .wa_marquee_left_nopause,
+.as-marquee-text-1-area .wa_marquee_right_nopause {
+  margin-bottom: 8px;
+}
+
+.wa_marquee_down_top,
+.wa_marquee_down_top + [data-omg-marquee-clone="true"] {
+  animation: omg-marquee-up 30s linear infinite;
+  will-change: transform;
+}
+
+@keyframes omg-marquee-left {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes omg-marquee-right {
+  from { transform: translate3d(-50%, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes omg-marquee-up {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(0, -100%, 0); }
+}
+
+/* Page-specific Odometer replacement. The spacer and clipped ribbon preserve
+   the source counter's line box while a single compositor transition rolls to
+   the final value. */
+.odometer.odometer-auto-theme {
+  position: relative;
+  display: inline-block;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.1em;
+}
+
+.odometer.odometer-auto-theme .odometer-inside,
+.odometer.odometer-auto-theme .odometer-ribbon,
+.odometer.odometer-auto-theme .odometer-ribbon-inner,
+.odometer.odometer-auto-theme .odometer-value {
+  display: block;
+}
+
+.odometer.odometer-auto-theme .odometer-digit {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.odometer.odometer-auto-theme .odometer-digit-spacer {
+  display: inline-block;
+  visibility: hidden;
+  vertical-align: middle;
+}
+
+.odometer.odometer-auto-theme .odometer-digit-inner {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+}
+
+.odometer.odometer-auto-theme .odometer-ribbon-inner {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.odometer.odometer-auto-theme .odometer-value {
+  text-align: center;
+  transform: translateZ(0);
+}
+
+.odometer.odometer-auto-theme .odometer-last-value {
+  position: absolute;
+}
+
+.odometer.odometer-auto-theme.omg-counter-animating .odometer-ribbon-inner {
+  transform: translate3d(0, -100%, 0);
+  transition: transform 2s ease;
+}
+
+.odometer.odometer-auto-theme.omg-counter-complete .odometer-ribbon-inner {
+  transform: translate3d(0, -100%, 0);
+}
+
+.omg-hero-reveal {
+  animation: omg-hero-liquid-in 850ms cubic-bezier(.16, 1, .3, 1) both;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@media (min-width: 1200px) {
+  #wa_liquid_img picture,
+  #wa_liquid_img .hero-main-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #wa_liquid_img .hero-main-img {
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@keyframes omg-hero-liquid-in {
+  from {
+    transform: scale(1.025) skewX(-1deg);
+  }
+  to {
+    transform: scale(1) skewX(0);
+  }
+}
+
+#wa_cursor_noise {
+  pointer-events: none;
+}
+
+.as-cta-2-form-selector select.omg-native-select {
+  display: none !important;
+}
+
+.as-cta-2-form-selector .nice-select[data-omg-nice-select] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.as-cta-2-form-selector .nice-select[data-omg-nice-select]:focus-visible {
+  box-shadow: 0 0 0 2px var(--as-clr-pr-1, #d6f345);
+}
+
+.nice-select[data-omg-nice-select] .current {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nice-select[data-omg-nice-select] .list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  max-height: 260px;
+  margin: 4px 0 0;
+  padding: 0;
+  overflow: auto;
+  color: #111;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(68, 68, 68, .11), 0 8px 24px rgba(0, 0, 0, .12);
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(.96) translateY(-8px);
+  transform-origin: top;
+  transition: transform 180ms cubic-bezier(.5, 0, 0, 1.25), opacity 120ms ease-out;
+}
+
+.nice-select[data-omg-nice-select].open .list {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1) translateY(0);
+}
+
+.nice-select[data-omg-nice-select] .option {
+  min-height: 40px;
+  padding: 8px 18px;
+  cursor: pointer;
+  list-style: none;
+  line-height: 24px;
+}
+
+.nice-select[data-omg-nice-select] .option:hover,
+.nice-select[data-omg-nice-select] .option.focus {
+  background: #f6f6f6;
+}
+
+.nice-select[data-omg-nice-select] .option.selected {
+  font-weight: 700;
+}
+
+.nice-select[data-omg-nice-select] .option.disabled {
+  color: #999;
+  cursor: default;
+}
+
+.as-cta-2-form-selector .wpcf7-form-control-wrap {
+  width: 100%;
+}
+
+.wpcf7-response-output[aria-hidden="false"] {
+  display: block;
+  margin-top: 16px;
+}
+
+.wpcf7-not-valid {
+  border-color: #ff6b6b !important;
+}
+
+/* The consent notice is complete in the static HTML, so it can participate in
+   the first paint instead of becoming a late (and much slower) LCP candidate. */
+.cookieadmin_law_container.omg-cookie-pending {
+  display: block;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .wa-cursor,
+  #wa_cursor_noise {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa_marquee_left_nopause,
+  .wa_marquee_right_nopause,
+  .wa_marquee_down_top,
+  .wa_marquee_down_top + [data-omg-marquee-clone="true"],
+  .omg-hero-reveal {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  .tab-pane.fade,
+  .wa_tilt_elm {
+    transition: none !important;
+  }
+}

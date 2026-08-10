@@ -1,0 +1,326 @@
+{
+  "source": "site/index.html + wp-content/themes/avista/assets/js/avista-core.js",
+  "page": "OneMilligram home clone",
+  "animations": [
+    {
+      "selector": ".offcanvas_toggle / .offcanvas_box_active / .wa-overly",
+      "presentCount": 3,
+      "trigger": "click; overlay click; Escape; menu-link click",
+      "effect": "panel translateX(105% -> 0), visibility and overlay opacity 0 -> 1",
+      "duration": "500ms",
+      "ease": "ease-in-out",
+      "stagger": null,
+      "runtimeOwner": "native event delegation + CSS"
+    },
+    {
+      "selector": ".as-header-1-menu-toggle-btn / .as-header-1-menu",
+      "presentCount": 2,
+      "trigger": "click or keyboard activation",
+      "effect": "menu width 0 -> 450px; links x 10 -> 0 and opacity 0 -> 1; toggle bars rotate to close",
+      "duration": "500ms",
+      "ease": "var(--as-cube-1)",
+      "stagger": "menu link transition delay 300ms",
+      "runtimeOwner": "native event delegation + existing CSS"
+    },
+    {
+      "selector": ".wa_title_spilt_1",
+      "presentCount": 13,
+      "trigger": "element top at 80% viewport",
+      "effect": "native character split; rotateX -80deg -> 0 from center; the above-fold hero characters remain painted throughout so the LCP text is never hidden, while later titles retain opacity 0 -> 1",
+      "duration": "data-speed or 1s; 30% duration at <=768px",
+      "ease": "power3.out",
+      "stagger": "50ms per character, from center",
+      "runtimeOwner": "native splitter + Web Animations compositor + IntersectionObserver"
+    },
+    {
+      "selector": ".wa_title_split_2",
+      "presentCount": 1,
+      "trigger": "element enters viewport",
+      "effect": "native word split; y 20 -> 0 and opacity 0 -> 1; blur omitted to keep animation transform/opacity-only",
+      "duration": "750ms",
+      "ease": "power3.out",
+      "stagger": "20ms per word",
+      "runtimeOwner": "native splitter + Web Animations compositor + IntersectionObserver"
+    },
+    {
+      "selector": ".wa_split_up",
+      "presentCount": 1,
+      "trigger": "element top at 86% viewport",
+      "effect": "native character split; y 50 -> 0 and opacity 0 -> 1",
+      "duration": "300ms after data-split-delay (700ms in markup)",
+      "ease": "power2.out (theme custom ease1 replacement)",
+      "stagger": "150ms per character",
+      "runtimeOwner": "native splitter + GSAP ScrollTrigger (Web Animations fallback)"
+    },
+    {
+      "selector": ".wa_btn_split_1",
+      "presentCount": 4,
+      "trigger": "fine-pointer hover",
+      "effect": "button-label characters alternate y -30/+30 -> 0 with opacity -> 1",
+      "duration": "400ms",
+      "ease": "power2.out",
+      "stagger": "50ms per character",
+      "runtimeOwner": "native splitter + GSAP"
+    },
+    {
+      "selector": ".wow.fadeInUp2",
+      "presentCount": 24,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "y 30 -> 0 and opacity 0 -> 1; blur omitted to keep animation transform/opacity-only",
+      "duration": "800ms plus data-wow-delay",
+      "ease": "power3.out (theme cubic replacement)",
+      "stagger": "per-element data-wow-delay",
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wow.fadeInRight2",
+      "presentCount": 18,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "x 50 -> 0 and opacity 0 -> 1; blur omitted to keep animation transform/opacity-only",
+      "duration": "800ms plus data-wow-delay",
+      "ease": "power3.out (theme cubic replacement)",
+      "stagger": "per-element data-wow-delay",
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wow.fadeInLeft2",
+      "presentCount": 8,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "x -50 -> 0 and opacity 0 -> 1; blur omitted to keep animation transform/opacity-only",
+      "duration": "800ms plus data-wow-delay",
+      "ease": "power3.out (theme cubic replacement)",
+      "stagger": "per-element data-wow-delay",
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wow.fadeIn",
+      "presentCount": 7,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "opacity 0 -> 1",
+      "duration": "800ms plus data-wow-delay",
+      "ease": "power3.out",
+      "stagger": "per-element data-wow-delay",
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wow.backInUp2",
+      "presentCount": 4,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "theme endpoint y 1200 -> 0, scale .7 -> 1, opacity .7 -> 1",
+      "duration": "800ms plus data-wow-delay",
+      "ease": "power3.out (theme keyframe replacement)",
+      "stagger": "per-element data-wow-delay",
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wow.zoomIn",
+      "presentCount": 1,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "scale .3 -> 1 and opacity 0 -> 1",
+      "duration": "800ms plus 500ms markup delay",
+      "ease": "power3.out",
+      "stagger": null,
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wow.slideInLeft",
+      "presentCount": 3,
+      "trigger": "viewport intersection with 50px bottom offset",
+      "effect": "theme endpoint x -2000 -> 0 and opacity 0 -> 1",
+      "duration": "800ms plus data-wow-delay",
+      "ease": "power3.out",
+      "stagger": "per-element data-wow-delay",
+      "runtimeOwner": "Web Animations compositor + shared IntersectionObserver"
+    },
+    {
+      "selector": ".wa_marquee_down_top",
+      "presentCount": 1,
+      "trigger": "continuous after initialization",
+      "effect": "vertical y 0 -> -100%; duplicated seamless track",
+      "duration": "30s loop",
+      "ease": "linear",
+      "stagger": null,
+      "runtimeOwner": "CSS compositor"
+    },
+    {
+      "selector": ".wa_marquee_left_nopause",
+      "presentCount": 1,
+      "trigger": "continuous after initialization",
+      "effect": "horizontal left seamless loop with duplicated content",
+      "duration": "content width / 20px-per-second",
+      "ease": "linear",
+      "stagger": null,
+      "runtimeOwner": "CSS compositor"
+    },
+    {
+      "selector": ".wa_marquee_right_nopause",
+      "presentCount": 1,
+      "trigger": "continuous after initialization",
+      "effect": "horizontal right seamless loop with duplicated content",
+      "duration": "content width / 20px-per-second",
+      "ease": "linear",
+      "stagger": null,
+      "runtimeOwner": "CSS compositor"
+    },
+    {
+      "selector": ".odometer[data-count]",
+      "presentCount": 3,
+      "trigger": "35% viewport intersection",
+      "effect": "numeric value 0 -> data-count (300, 14, 100)",
+      "duration": "1200ms",
+      "ease": "cubic-out",
+      "stagger": null,
+      "runtimeOwner": "shared frame scheduler"
+    },
+    {
+      "selector": ".wa_magnetic_btn_1",
+      "presentCount": 18,
+      "trigger": "fine-pointer move and leave",
+      "effect": "translate up to +/-5px per axis then eased return to 0",
+      "duration": "frame-smoothed",
+      "ease": "16% interpolation per frame (theme elastic replacement)",
+      "stagger": null,
+      "runtimeOwner": "delegated pointer events + shared frame scheduler"
+    },
+    {
+      "selector": ".wa_magnetic_1_trigger .wa_magnetic_1_elm",
+      "presentCount": 10,
+      "trigger": "fine-pointer move inside 6 parent triggers",
+      "effect": "inner translate up to +/-15px per axis then eased return to 0",
+      "duration": "frame-smoothed",
+      "ease": "16% interpolation per frame",
+      "stagger": null,
+      "runtimeOwner": "delegated pointer events + shared frame scheduler"
+    },
+    {
+      "selector": ".wa_tilt .wa_tilt_elm",
+      "presentCount": 1,
+      "trigger": "fine-pointer move over hero and pointer leave",
+      "effect": "perspective(1000px) rotateY -5.5deg -> +5.5deg; reset to 0",
+      "duration": "160ms response",
+      "ease": "ease-out",
+      "stagger": null,
+      "runtimeOwner": "delegated pointer events + CSS transform"
+    },
+    {
+      "selector": "#wa_cursor_noise",
+      "presentCount": 1,
+      "trigger": "fine-pointer movement over hero",
+      "effect": "bounded 2px particle-noise burst within 250px radius; hidden on coarse pointers",
+      "duration": "40 frames per particle",
+      "ease": "linear drift and alpha fade",
+      "stagger": "max 16 particles per throttled pointer sample",
+      "runtimeOwner": "shared frame scheduler + Canvas2D"
+    },
+    {
+      "selector": ".wa-cursor (runtime-created)",
+      "presentCount": 0,
+      "trigger": "fine-pointer movement, interactive hover, pointer down/up",
+      "effect": "cursor follows pointer; pointer and active visual states; disabled on coarse pointers",
+      "duration": "frame-smoothed with existing 300ms state transitions",
+      "ease": "24% interpolation per frame",
+      "stagger": null,
+      "runtimeOwner": "shared frame scheduler"
+    },
+    {
+      "selector": "#wa_liquid_img .hero-main-img",
+      "presentCount": 1,
+      "trigger": "page ready",
+      "effect": "Pixi displacement -220 -> 0 replaced by a transform-only skew/scale entrance while the LCP image remains fully visible; final image endpoint is identical",
+      "duration": "850ms",
+      "ease": "cubic-bezier(.16,1,.3,1) (theme custom ease replacement)",
+      "stagger": null,
+      "runtimeOwner": "CSS compositor; no Pixi"
+    },
+    {
+      "selector": ".t1_ani_trigger / .as-team-1-member-ani",
+      "presentCount": 5,
+      "trigger": "viewport >=1600px; trigger top 10% -> top -70%; scrubbed",
+      "effect": "four members from x 1187/830/460/100, y -828, scale .7 -> authored positions",
+      "duration": "scroll-scrubbed",
+      "ease": "none",
+      "stagger": "timeline overlap <50%",
+      "runtimeOwner": "GSAP ScrollTrigger"
+    },
+    {
+      "selector": ".partner1_trigger .as-partner-1-cloud",
+      "presentCount": 1,
+      "trigger": "viewport >=1200px; top 90% -> top -10%; scrubbed",
+      "effect": "cloud-1 x 150 -> 0; cloud-2 x -150 -> 0; rocket x 100/y 300/rotation -30 -> 0",
+      "duration": "scroll-scrubbed",
+      "ease": "none",
+      "stagger": "clouds simultaneous; rocket begins at prior step 10%",
+      "runtimeOwner": "GSAP ScrollTrigger"
+    },
+    {
+      "selector": ".cta1_trigger",
+      "presentCount": 1,
+      "trigger": "viewport >=992px; top 50% -> top top; scrubbed",
+      "effect": "hands, images, two titles and CTA buttons enter from exact theme x/y/rotation/opacity endpoints",
+      "duration": "scroll-scrubbed",
+      "ease": "none",
+      "stagger": "timeline overlap < and <10%",
+      "runtimeOwner": "GSAP ScrollTrigger"
+    },
+    {
+      "selector": ".portfolio1_pin_elm_trigger / .portfolio1_pin_elm",
+      "presentCount": 2,
+      "trigger": "viewport >=992px; trigger top 10% -> bottom 85%",
+      "effect": "section title pins without spacing; .big-title scales 1 -> .5 through section",
+      "duration": "scroll-scrubbed",
+      "ease": "none",
+      "stagger": null,
+      "runtimeOwner": "GSAP ScrollTrigger"
+    },
+    {
+      "selector": ".wa_accordion_item / .accordion-collapse",
+      "presentCount": 20,
+      "trigger": "FAQ button click",
+      "effect": "one panel per accordion expands height 0 -> content and opacity 0 -> 1; icon rotates through existing CSS",
+      "duration": "350ms open / 300ms close",
+      "ease": "cubic-bezier(.25,.8,.25,1) / cubic-bezier(.4,0,.2,1)",
+      "stagger": null,
+      "runtimeOwner": "native event delegation + Web Animations"
+    },
+    {
+      "selector": ".tab-pane.fade / [data-bs-toggle='tab']",
+      "presentCount": 6,
+      "trigger": "tab click or arrow/Home/End keyboard navigation",
+      "effect": "active pane display switch and opacity 0 -> 1",
+      "duration": "250ms",
+      "ease": "ease",
+      "stagger": null,
+      "runtimeOwner": "native event delegation + CSS"
+    },
+    {
+      "selector": ".wa_placeholder",
+      "presentCount": 4,
+      "trigger": "50% viewport intersection",
+      "effect": "placeholder text types from empty to original text",
+      "duration": "70ms per character",
+      "ease": "stepped",
+      "stagger": null,
+      "runtimeOwner": "shared frame scheduler"
+    },
+    {
+      "selector": ".as-team-1-wrap / .as-team-1-member",
+      "presentCount": 5,
+      "trigger": "10% viewport intersection then member hover",
+      "effect": "adds is_active so authored image/content/social hover transitions can run",
+      "duration": "500ms existing CSS",
+      "ease": "var(--as-cube-1)",
+      "stagger": null,
+      "runtimeOwner": "IntersectionObserver + existing CSS"
+    },
+    {
+      "selector": ".wa_backToTop",
+      "presentCount": 1,
+      "trigger": "scrollY > 500 and click/keyboard activation",
+      "effect": "button bottom -12.5% -> 2.5%; smooth scroll to 0",
+      "duration": "300ms button; 1s scroll",
+      "ease": "existing CSS / Lenis",
+      "stagger": null,
+      "runtimeOwner": "passive scroll + single rAF + Lenis"
+    }
+  ]
+}

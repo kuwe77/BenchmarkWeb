@@ -1,0 +1,29 @@
+{
+  "name": "onemilligram-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local, pixel-faithful static clone of the OneMilligram homepage.",
+  "type": "module",
+  "scripts": {
+    "mirror": "node scripts/mirror.mjs",
+    "optimize": "node scripts/optimize.mjs",
+    "verify": "node scripts/verify.mjs",
+    "perf": "node scripts/perf.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "devDependencies": {
+    "lighthouse": "13.4.1",
+    "lightningcss": "1.33.0",
+    "pixelmatch": "7.2.0",
+    "pngjs": "7.0.0",
+    "puppeteer-core": "25.5.0",
+    "purgecss": "8.0.0",
+    "sharp": "0.35.3",
+    "subset-font": "2.5.0"
+  }
+}

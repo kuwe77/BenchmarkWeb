@@ -1,0 +1,649 @@
+{
+  "assets": {
+    "/assets/fonts/fa-brands-400-icons.7e6255147781.woff2": {
+      "bytes": 688,
+      "immutable": true,
+      "sha256": "7e625514778191594b076233948f7b1752bc77e9c628798ea30244d2097dbf77"
+    },
+    "/assets/fonts/fa-brands-400-icons.aa34e1b78ce0.woff2": {
+      "bytes": 708,
+      "immutable": true,
+      "sha256": "aa34e1b78ce05abbe7ba1f11c9f88be66d577c7c7fd66cddc73141ff0ee8d31e"
+    },
+    "/assets/fonts/fa-light-300-icons.7cc1553c3373.woff2": {
+      "bytes": 1376,
+      "immutable": true,
+      "sha256": "7cc1553c3373936ae03fef31f82fd0e6583260aab063c4036afc1a5e52fb6506"
+    },
+    "/assets/fonts/fa-regular-400-icons.060d7667eebb.woff2": {
+      "bytes": 712,
+      "immutable": true,
+      "sha256": "060d7667eebbdd1985b13dd1e6fb6bf4de98ea471571732b544efa74b287f3c5"
+    },
+    "/assets/fonts/fa-regular-400-icons.729b877c079e.woff2": {
+      "bytes": 1348,
+      "immutable": true,
+      "sha256": "729b877c079ed998c049ec2fc47cc5bc2c83e84b8a477c4260e6933bb44a6b22"
+    },
+    "/assets/fonts/fa-solid-900-icons.2688190c5393.woff2": {
+      "bytes": 1144,
+      "immutable": true,
+      "sha256": "2688190c5393fbee9927fb80f45c8d253192a6388a3a49c3dc7c8b1baeac7840"
+    },
+    "/assets/fonts/fa-solid-900-icons.ba6f4abafb6a.woff2": {
+      "bytes": 1156,
+      "immutable": true,
+      "sha256": "ba6f4abafb6a50eda6452166b77bf6a481b41f0a8594ed25b1efde9085f92d86"
+    },
+    "/assets/fonts/fa-v4compatibility-icons.ca592f7c0554.woff2": {
+      "bytes": 500,
+      "immutable": true,
+      "sha256": "ca592f7c05547249a7d18fdfaea1f33d715e97b96407fbfac8c425f4beda6b4a"
+    },
+    "/assets/fonts/flaticon_avista-icons.fb709066866d.woff2": {
+      "bytes": 664,
+      "immutable": true,
+      "sha256": "fb709066866dcd66129ea1e1c2ab0f84d58142eaad291eb4b3cc2e3b9044578b"
+    },
+    "/assets/fonts/geist-mono-normal.7c3dbca03a6e.woff2": {
+      "bytes": 14308,
+      "immutable": true,
+      "sha256": "7c3dbca03a6e0bdee9f9c9819a3043a08ab7f0ad878fbee8078f2ec908783d99"
+    },
+    "/assets/fonts/inter-italic.5670380c385b.woff2": {
+      "bytes": 48376,
+      "immutable": true,
+      "sha256": "5670380c385b47ad15ba641708ba04226afa53c0f482d5a9ed43400c5bb3777b"
+    },
+    "/assets/fonts/inter-normal.ae61e369ced6.woff2": {
+      "bytes": 44932,
+      "immutable": true,
+      "sha256": "ae61e369ced63e93bab139685cb0a4f97d52ae42d3814890f7b846505abb589b"
+    },
+    "/assets/images/afikh-320.73ee6f4e80a6.webp": {
+      "bytes": 14828,
+      "immutable": true,
+      "sha256": "73ee6f4e80a6b9f50f4f35758551df0555fd313cadad57e0580bc818ba97e089"
+    },
+    "/assets/images/afikh-320.801694afb311.avif": {
+      "bytes": 8672,
+      "immutable": true,
+      "sha256": "801694afb3115ab6026722c28fa382312e5090e86474b5d7d951e1308906634d"
+    },
+    "/assets/images/afikh-480.371d7c3759eb.webp": {
+      "bytes": 23004,
+      "immutable": true,
+      "sha256": "371d7c3759ebfad32a9406c6e60cbfda3fd8e2ad3f609a46ea255beb4e44dcbb"
+    },
+    "/assets/images/afikh-480.9d3b3a4b9c3b.avif": {
+      "bytes": 13738,
+      "immutable": true,
+      "sha256": "9d3b3a4b9c3b0afb73a9b3e78baf34add135fff03a83084d924b805b30df4b5c"
+    },
+    "/assets/images/afikh-486.4da13926cc93.webp": {
+      "bytes": 23822,
+      "immutable": true,
+      "sha256": "4da13926cc9311aad5dc89f07306c8febe565d747f10684a3cd6302693dcb87b"
+    },
+    "/assets/images/afikh-486.b8e7625eccf8.avif": {
+      "bytes": 14015,
+      "immutable": true,
+      "sha256": "b8e7625eccf89934717ba40dd3a12e173cb68b69543326c3c0568d6b2cca54e3"
+    },
+    "/assets/images/aizzat-320.7604e02a442d.avif": {
+      "bytes": 7199,
+      "immutable": true,
+      "sha256": "7604e02a442d0d63335135f6f9b5b16798e8871ef43b0ab150945dba07da6173"
+    },
+    "/assets/images/aizzat-320.a1c8f73e2d83.webp": {
+      "bytes": 11092,
+      "immutable": true,
+      "sha256": "a1c8f73e2d830b2c2e17515c0c363e3352941747539073ea008b143245ed828e"
+    },
+    "/assets/images/aizzat-480.7a06ef74cc15.avif": {
+      "bytes": 12172,
+      "immutable": true,
+      "sha256": "7a06ef74cc1556b497bbf066b84f3a9c40f35a9ca9d6e6857c32ec8b17d03f23"
+    },
+    "/assets/images/aizzat-480.e1722afefc07.webp": {
+      "bytes": 18466,
+      "immutable": true,
+      "sha256": "e1722afefc0720d8c91a9cf07bff313f4b1938ef7654a9398d8aabdc4524bb8e"
+    },
+    "/assets/images/aizzat-486.b66d12f42706.webp": {
+      "bytes": 19352,
+      "immutable": true,
+      "sha256": "b66d12f427062371cbb3f6490638971172f5ac3a4ae0bca2689fe3caeb68b71c"
+    },
+    "/assets/images/aizzat-486.b6e4c1679408.avif": {
+      "bytes": 12573,
+      "immutable": true,
+      "sha256": "b6e4c1679408ca98b35ef3d7b6ab7163652aa5ab3da3e6b8ca49d77f6e097d16"
+    },
+    "/assets/images/athirah-320.a56acfb40a94.webp": {
+      "bytes": 10056,
+      "immutable": true,
+      "sha256": "a56acfb40a949f4d25ccb476446c4b426c791905cafd95d86e2f9db4d2fcab37"
+    },
+    "/assets/images/athirah-320.e7153ae9df85.avif": {
+      "bytes": 7039,
+      "immutable": true,
+      "sha256": "e7153ae9df85f4220782af2af964c55ca9b8ba19095142bcb39eccb35502850f"
+    },
+    "/assets/images/athirah-480.23a0a08f5902.avif": {
+      "bytes": 10810,
+      "immutable": true,
+      "sha256": "23a0a08f5902a01f130db422c149a8d590b01b3b3418491976d3d3648476e4b6"
+    },
+    "/assets/images/athirah-480.759715c24b86.webp": {
+      "bytes": 15672,
+      "immutable": true,
+      "sha256": "759715c24b8628152007827a3d15cf7422b6848c2f4ae2bd6f09d97aae1e75a8"
+    },
+    "/assets/images/athirah-486.7c1317b993e3.avif": {
+      "bytes": 11025,
+      "immutable": true,
+      "sha256": "7c1317b993e33888a0e989b51d7acf792a3d87abf3249dfb4a7265180f6871dd"
+    },
+    "/assets/images/athirah-486.853a89b7c96d.webp": {
+      "bytes": 16148,
+      "immutable": true,
+      "sha256": "853a89b7c96d53262b4d6c172124921c5f6e021c8ff51d5873822c0e3167ca3d"
+    },
+    "/assets/images/header-image-1024.43441f97e8cd.webp": {
+      "bytes": 105006,
+      "immutable": true,
+      "sha256": "43441f97e8cdf047b294664e5513a8c513bc14d32df32f642f6f291611f2fff9"
+    },
+    "/assets/images/header-image-1024.fc873d1f518e.avif": {
+      "bytes": 55718,
+      "immutable": true,
+      "sha256": "fc873d1f518ef637233b7344a2f9ca278efc64f4dac2c64a390d4aa5397b65f2"
+    },
+    "/assets/images/header-image-1440.033bb4c712ab.webp": {
+      "bytes": 159576,
+      "immutable": true,
+      "sha256": "033bb4c712abd0e0639a412e0e3a33da1e8ce2528173e57bfa8e68ea151a8aad"
+    },
+    "/assets/images/header-image-1440.71aadeddf277.avif": {
+      "bytes": 83636,
+      "immutable": true,
+      "sha256": "71aadeddf2772b9b5ec2bebd4d88ad1be2c11889dc40c61ebb0317004d9b721d"
+    },
+    "/assets/images/header-image-1997.529b9c5e704d.avif": {
+      "bytes": 117827,
+      "immutable": true,
+      "sha256": "529b9c5e704d01873e7a31894ddaed6a828b9c031214769549543b605d936567"
+    },
+    "/assets/images/header-image-1997.8b817a4b4c9c.webp": {
+      "bytes": 221302,
+      "immutable": true,
+      "sha256": "8b817a4b4c9c4c74237893f680c852b6d33223f32c7859eddd785acd90cd89bd"
+    },
+    "/assets/images/header-image-320.ad7507882b63.avif": {
+      "bytes": 12899,
+      "immutable": true,
+      "sha256": "ad7507882b63d1b4c7f8fcf4acd404fec5593e266b4c42d0e3f9144a33b63034"
+    },
+    "/assets/images/header-image-320.b57c65663146.webp": {
+      "bytes": 21632,
+      "immutable": true,
+      "sha256": "b57c6566314626bc6008fe191e260be5ef042205b44829e64cf7764ef22bd1e3"
+    },
+    "/assets/images/header-image-480.26e935662860.avif": {
+      "bytes": 22902,
+      "immutable": true,
+      "sha256": "26e9356628600e06cc31d3e32992c2afe89a8f89b8ec3affa3b0ffa34b84e7c1"
+    },
+    "/assets/images/header-image-480.f1aba9486b5b.webp": {
+      "bytes": 38764,
+      "immutable": true,
+      "sha256": "f1aba9486b5b6f5edcd3ecb11e2e1bdfd5d03b9bc1bf89d8fc165f3ead2421ef"
+    },
+    "/assets/images/header-image-768.78cf85ca99fd.avif": {
+      "bytes": 40393,
+      "immutable": true,
+      "sha256": "78cf85ca99fd15ab3d0c75426267c2eec47569adad7342d53bc079229365a8bc"
+    },
+    "/assets/images/header-image-768.92c5884283af.webp": {
+      "bytes": 75400,
+      "immutable": true,
+      "sha256": "92c5884283af253722a85408a7dfe8570a7fe6bcf394404ff20885aad4e1ded2"
+    },
+    "/assets/images/sarah-omg-2-320.0b0aa9f3a72a.webp": {
+      "bytes": 15532,
+      "immutable": true,
+      "sha256": "0b0aa9f3a72ac440bc616b8d8650f6f8b67bd991bee5864f9cfa2624201a1ff5"
+    },
+    "/assets/images/sarah-omg-2-320.f7faba6b2b17.avif": {
+      "bytes": 9487,
+      "immutable": true,
+      "sha256": "f7faba6b2b17f00fe64880e5627db91424fd06fe95d4f16bcba92d450570aa4f"
+    },
+    "/assets/images/sarah-omg-2-480.f1365154d89e.webp": {
+      "bytes": 24678,
+      "immutable": true,
+      "sha256": "f1365154d89e5fb077dc4bdadf00341494fd8a103f1b7aac27bc12f48c9b14a1"
+    },
+    "/assets/images/sarah-omg-2-480.f19f2c730b04.avif": {
+      "bytes": 15454,
+      "immutable": true,
+      "sha256": "f19f2c730b041e12483e645d74941613ea7f528aa9dcdc979dd0d10230b7aa5c"
+    },
+    "/assets/images/sarah-omg-2-486.06d725d9cebd.avif": {
+      "bytes": 15676,
+      "immutable": true,
+      "sha256": "06d725d9cebdccec1c1605532520845204cf015961e664530a512e3704384db4"
+    },
+    "/assets/images/sarah-omg-2-486.a91c70dffb37.webp": {
+      "bytes": 25394,
+      "immutable": true,
+      "sha256": "a91c70dffb37c784b58e1890ca995cb27588e6d223a97b90ec5b0cba3426115f"
+    },
+    "/assets/scripts/clone-runtime.a8bca513dad9.js": {
+      "bytes": 61335,
+      "immutable": true,
+      "sha256": "a8bca513dad9c11f20f8d8dc7dc4fc3a1fb6fcb7d93a44efc1d13c93a4158ffe",
+      "br": {
+        "bytes": 11953,
+        "path": "/assets/scripts/clone-runtime.a8bca513dad9.js.br"
+      },
+      "gzip": {
+        "bytes": 13774,
+        "path": "/assets/scripts/clone-runtime.a8bca513dad9.js.gz"
+      }
+    },
+    "/assets/scripts/gsap-min.61e0255f067b.js": {
+      "bytes": 72224,
+      "immutable": true,
+      "sha256": "61e0255f067b7a589d66290398ceb4ec9b957ec0a17af1fb976f05f97a0622c3",
+      "br": {
+        "bytes": 25522,
+        "path": "/assets/scripts/gsap-min.61e0255f067b.js.br"
+      },
+      "gzip": {
+        "bytes": 28087,
+        "path": "/assets/scripts/gsap-min.61e0255f067b.js.gz"
+      }
+    },
+    "/assets/scripts/lenis-min.228a4541f3c2.js": {
+      "bytes": 10445,
+      "immutable": true,
+      "sha256": "228a4541f3c25622518832f47f7be3e800027b046b4ac2bd05118ce9d91493f6",
+      "br": {
+        "bytes": 2755,
+        "path": "/assets/scripts/lenis-min.228a4541f3c2.js.br"
+      },
+      "gzip": {
+        "bytes": 3113,
+        "path": "/assets/scripts/lenis-min.228a4541f3c2.js.gz"
+      }
+    },
+    "/assets/scripts/scrolltrigger-min.e0d7940abaa4.js": {
+      "bytes": 40606,
+      "immutable": true,
+      "sha256": "e0d7940abaa44df2f84df4539d2cddd21af8ac95c8345dd8e649d0455cab5572",
+      "br": {
+        "bytes": 14987,
+        "path": "/assets/scripts/scrolltrigger-min.e0d7940abaa4.js.br"
+      },
+      "gzip": {
+        "bytes": 16583,
+        "path": "/assets/scripts/scrolltrigger-min.e0d7940abaa4.js.gz"
+      }
+    },
+    "/assets/styles/site.b45ee4d1ad5e.css": {
+      "bytes": 105509,
+      "immutable": true,
+      "sha256": "b45ee4d1ad5eef73662e9db2ba5bf41499083f86403f8a22dc373e4eb67843bf",
+      "br": {
+        "bytes": 16373,
+        "path": "/assets/styles/site.b45ee4d1ad5e.css.br"
+      },
+      "gzip": {
+        "bytes": 19080,
+        "path": "/assets/styles/site.b45ee4d1ad5e.css.gz"
+      }
+    },
+    "/external/s.w.org/images/core/emoji/17.0.2/svg/260e.svg": {
+      "bytes": 1855,
+      "immutable": false,
+      "sha256": "c63cb7c1d50d26f952c92776aa366684242aeb63e9951675ce0a6a331c89c6aa",
+      "br": {
+        "bytes": 660,
+        "path": "/external/s.w.org/images/core/emoji/17.0.2/svg/260e.svg.br"
+      },
+      "gzip": {
+        "bytes": 727,
+        "path": "/external/s.w.org/images/core/emoji/17.0.2/svg/260e.svg.gz"
+      }
+    },
+    "/index.html": {
+      "bytes": 323591,
+      "immutable": false,
+      "sha256": "7ef53596c2a644fd44842959b8e350873ba8e6879148309c27a3986010918a1f",
+      "br": {
+        "bytes": 65149,
+        "path": "/index.html.br"
+      },
+      "gzip": {
+        "bytes": 93309,
+        "path": "/index.html.gz"
+      }
+    },
+    "/motion-manifest.json": {
+      "bytes": 13277,
+      "immutable": false,
+      "sha256": "ea94f1c95391bc7bcee71a649818e66e44d9be1f1497951c7784feadb7e8c6d3",
+      "br": {
+        "bytes": 2410,
+        "path": "/motion-manifest.json.br"
+      },
+      "gzip": {
+        "bytes": 2853,
+        "path": "/motion-manifest.json.gz"
+      }
+    },
+    "/wp-content/plugins/cookieadmin/assets/images/cookieadmin_icon.svg": {
+      "bytes": 738,
+      "immutable": false,
+      "sha256": "1c1ca5d2744c185a68b3991a50cb400d0fb126b311fa5249f556a1ea82a220a7"
+    },
+    "/wp-content/themes/avista/assets/img/logo/h1-favicon-shape.webp": {
+      "bytes": 366,
+      "immutable": false,
+      "sha256": "107550b1af0061aa2b41be53ed817e31cf9a7f23b957003bc93cb145899b6743"
+    },
+    "/wp-content/uploads/2025/10/a1-shape-1.webp": {
+      "bytes": 2068,
+      "immutable": false,
+      "sha256": "6111c946bc8e973c8512272803c73d38bd5d1243acfcfdec49b432839283bc1f"
+    },
+    "/wp-content/uploads/2025/10/a1-shape-2.webp": {
+      "bytes": 2172,
+      "immutable": false,
+      "sha256": "30d44ddd6dcac891882a5957c939acf8fdd6536b5cfd634051ce2fe4649be49b"
+    },
+    "/wp-content/uploads/2025/10/b1-illus-1.webp": {
+      "bytes": 72492,
+      "immutable": false,
+      "sha256": "9b59248f655a3c3f97993d4cd67201702f829c2650f9605368ad849a6171ffb4"
+    },
+    "/wp-content/uploads/2025/10/cta1-hand-1.webp": {
+      "bytes": 33900,
+      "immutable": false,
+      "sha256": "3a9e07a2c07f7886cabf2d887db44fed00f74c7459d2b505c6b56f53e18d5d36"
+    },
+    "/wp-content/uploads/2025/10/cta1-hand-2.webp": {
+      "bytes": 36604,
+      "immutable": false,
+      "sha256": "0eb2ebad078db28f64088088833f3d17a5fc6a2ae016d97c9c3ee8e38ca50cc6"
+    },
+    "/wp-content/uploads/2025/10/f1-img-2.webp": {
+      "bytes": 7972,
+      "immutable": false,
+      "sha256": "3aafd9112db7f905a6e9ea851dbe40f1b556d17c6fda3936dce9a33fd56c7054"
+    },
+    "/wp-content/uploads/2025/10/f1-img-3.webp": {
+      "bytes": 15562,
+      "immutable": false,
+      "sha256": "4fd6dc65b1c41de8f9542d8a0dad1ef511eb949e62f26b632120dc94eca0c466"
+    },
+    "/wp-content/uploads/2025/10/faqs1-clr.webp": {
+      "bytes": 36730,
+      "immutable": false,
+      "sha256": "97e5cf587ae0fb221687bce986f68b409ed569266965b00ceaf7907f6cf00dd7"
+    },
+    "/wp-content/uploads/2025/10/faqs1-illus-1.webp": {
+      "bytes": 6808,
+      "immutable": false,
+      "sha256": "8cae10173dc15252ab7e0d6b4ee87cfc964cb0a2e2a6d9193f49b82008dce2d6"
+    },
+    "/wp-content/uploads/2025/10/faqs1-illus-2.webp": {
+      "bytes": 6302,
+      "immutable": false,
+      "sha256": "54066b1ffab3b893c42a5fee9b214539d2a122a79fb7882580156d51f1065f99"
+    },
+    "/wp-content/uploads/2025/10/h1-active-bg.webp": {
+      "bytes": 624,
+      "immutable": false,
+      "sha256": "41017aa629ad0913572ebd40e581fa426e8ca488c3a5103319d5a0a5b5aa239a"
+    },
+    "/wp-content/uploads/2025/10/h1-bg-noise-1.gif": {
+      "bytes": 187573,
+      "immutable": false,
+      "sha256": "d1c5169bfca278bde80cfe123d5a200a44848df9ac2ab16962603119f0d4e37d"
+    },
+    "/wp-content/uploads/2025/10/hy-icon.gif": {
+      "bytes": 294814,
+      "immutable": false,
+      "sha256": "0d4e7caebcb5ad07dbc9ab3940ff8b124e7cf60da363db4c7bec3988b185ae96"
+    },
+    "/wp-content/uploads/2025/10/p1-arrow.webp": {
+      "bytes": 824,
+      "immutable": false,
+      "sha256": "66b14411a40a426dbf8f2119f5a0a969e0f3645f8742e4bd0346538eade98069"
+    },
+    "/wp-content/uploads/2025/10/p1-cloud-2.webp": {
+      "bytes": 7618,
+      "immutable": false,
+      "sha256": "6d3f33eefcb982ab3e48ffff76f64e2823a444d88ab70ae332271fb2557a120b"
+    },
+    "/wp-content/uploads/2025/10/p1-cloud.webp": {
+      "bytes": 12584,
+      "immutable": false,
+      "sha256": "b6594c6ca619aefa19b67df5c975b6947282a69b69a4a439eb114925812ed74d"
+    },
+    "/wp-content/uploads/2025/10/p1-rocket.webp": {
+      "bytes": 19014,
+      "immutable": false,
+      "sha256": "cdfff6dc371139b28826a5be96aa6c6c689691f33eb600d5506eec9fdbe63365"
+    },
+    "/wp-content/uploads/2025/10/right-up.webp": {
+      "bytes": 354,
+      "immutable": false,
+      "sha256": "953291b63b0b379d5cc419994e1712455cc3dd483c7a632813192d126a0e3e1e"
+    },
+    "/wp-content/uploads/2025/10/s1-img-1.webp": {
+      "bytes": 3864,
+      "immutable": false,
+      "sha256": "49d52a8a398f8de8d344ead0f1a1853bdcf51551b319d93a348f8323ae309c19"
+    },
+    "/wp-content/uploads/2025/10/s1-logo-1.webp": {
+      "bytes": 934,
+      "immutable": false,
+      "sha256": "697ab3384a7ee88477f100f3c302d49e026d335a84339ceb166f5e896d03ed1b"
+    },
+    "/wp-content/uploads/2025/10/s1-logo-2.webp": {
+      "bytes": 854,
+      "immutable": false,
+      "sha256": "bdf6a84413ac1f1a359dfec6ca305c496667c53be06a5523c1760c150b8366a1"
+    },
+    "/wp-content/uploads/2025/10/s1-logo-3.webp": {
+      "bytes": 816,
+      "immutable": false,
+      "sha256": "81afe2e9108c8c746588e1131fb32fe90699705556ab4b7b6148090f28f6b3f3"
+    },
+    "/wp-content/uploads/2025/10/s1-logo-4.webp": {
+      "bytes": 840,
+      "immutable": false,
+      "sha256": "90afc5c13f29ddf8c45879f01c315a8476b07266eccee78ccf58fb86c1d72ad5"
+    },
+    "/wp-content/uploads/2025/10/star-icon.webp": {
+      "bytes": 214,
+      "immutable": false,
+      "sha256": "8a6f1ae684732d397aa68a876872ae18645d30fec089452a7e9ab98fdb626f72"
+    },
+    "/wp-content/uploads/2025/10/star.webp": {
+      "bytes": 266,
+      "immutable": false,
+      "sha256": "8102f8cae0c119c6b3e75d59b56c9e5402523e7823b341ad5cac697cf1363e66"
+    },
+    "/wp-content/uploads/2025/11/b2-img-2.webp": {
+      "bytes": 6012,
+      "immutable": false,
+      "sha256": "9fbee9d6be1583f7fe35d68587e3524d9a6abf6bc79d12fafec92b198b5331c9"
+    },
+    "/wp-content/uploads/2025/11/c4-img-1.webp": {
+      "bytes": 53652,
+      "immutable": false,
+      "sha256": "b865cec562511440bc40deb4b199351eb4a65ad40553a8f547a462419c7db2fa"
+    },
+    "/wp-content/uploads/2025/11/s1-card-img-1.webp": {
+      "bytes": 37326,
+      "immutable": false,
+      "sha256": "fa7fea1f898a5d838a9a100a1fc19d0f80d21bc7e1a8c87757cb5b5b5e788c0a"
+    },
+    "/wp-content/uploads/2025/11/s1-card-img-2.webp": {
+      "bytes": 66174,
+      "immutable": false,
+      "sha256": "25ccda98ad927b38734637420797f24e7bb91809f8b691ec84146a70f55cfe21"
+    },
+    "/wp-content/uploads/2025/11/s1-card-img-3.webp": {
+      "bytes": 89514,
+      "immutable": false,
+      "sha256": "eeb045a89d9fc73a3b6c987810bbb45533398964a385a09d810146b5ff12f209"
+    },
+    "/wp-content/uploads/2025/11/s1-card-img-4.webp": {
+      "bytes": 47076,
+      "immutable": false,
+      "sha256": "f16fc4405b76d579a78d921b666e6f52635b85b6c597f4301a5c26bb4936b824"
+    },
+    "/wp-content/uploads/2026/01/1-1.png": {
+      "bytes": 138232,
+      "immutable": false,
+      "sha256": "485ce70c66dda18c8fa64d605fddfcc9a1ac771822043ad57896933cba53bc0b"
+    },
+    "/wp-content/uploads/2026/01/1-2.png": {
+      "bytes": 48220,
+      "immutable": false,
+      "sha256": "bc67033203067dd5d0babf0add00f6cf5ba08bbc3376b052e64557bdba17498c"
+    },
+    "/wp-content/uploads/2026/01/1.png": {
+      "bytes": 73903,
+      "immutable": false,
+      "sha256": "762e73d8aeab35a3c8480539fbd519a0a0fa0fad71555d71c4ad82d3009fca04"
+    },
+    "/wp-content/uploads/2026/01/2-1.png": {
+      "bytes": 158371,
+      "immutable": false,
+      "sha256": "f27b32e33e2e8013c732161889f6dfe6fca4e083d5a7e8b2f31254e132759286"
+    },
+    "/wp-content/uploads/2026/01/2-2.png": {
+      "bytes": 46485,
+      "immutable": false,
+      "sha256": "78dea07fa047709fe81b56079db0bc2d3fc5249b567ac986f89b7aecd8612f3e"
+    },
+    "/wp-content/uploads/2026/01/2.png": {
+      "bytes": 273606,
+      "immutable": false,
+      "sha256": "4b82bc8519510f50efb7f3369a9d00a9394406496eb4dad4b3ecccf26af2b8a5"
+    },
+    "/wp-content/uploads/2026/01/3-1.png": {
+      "bytes": 43485,
+      "immutable": false,
+      "sha256": "01efff143b0931ea8fce3179aa1609e2900d0eebf95c04f9cf561430c74e850b"
+    },
+    "/wp-content/uploads/2026/01/3.png": {
+      "bytes": 101066,
+      "immutable": false,
+      "sha256": "bd63f0077a8e54187ad6fb0f70f276a2c66ec4e3ee9ce5fd0eef7c54cde9c1bf"
+    },
+    "/wp-content/uploads/2026/01/4-1.png": {
+      "bytes": 39752,
+      "immutable": false,
+      "sha256": "77b2990c33bcdf9ac7bf8f7636e38831053b89d7a39ffa27d7154a3f631f0e41"
+    },
+    "/wp-content/uploads/2026/01/Afikh.png": {
+      "bytes": 499817,
+      "immutable": false,
+      "sha256": "434385aee1e09bff433a25beeb364c569b4c72e07cbbcf5f8097d626acd962e5"
+    },
+    "/wp-content/uploads/2026/01/Aizzat.png": {
+      "bytes": 508573,
+      "immutable": false,
+      "sha256": "dd16ae4d5cfdb7a746474545e0862f1cdb96420efc47f635ff91cbe0bccaa286"
+    },
+    "/wp-content/uploads/2026/01/Athirah.png": {
+      "bytes": 415385,
+      "immutable": false,
+      "sha256": "6dcfa76120e087a06e018712664cc492d3046de92628682d6d7928329db7c05f"
+    },
+    "/wp-content/uploads/2026/01/Azman.png": {
+      "bytes": 36946,
+      "immutable": false,
+      "sha256": "d25332b032e2b70d0c7f00a86485339f767461930b72edfb41cc1bc64760fe5c"
+    },
+    "/wp-content/uploads/2026/01/Baljit.png": {
+      "bytes": 33434,
+      "immutable": false,
+      "sha256": "831068e2b357571cee370252203f04c66b682cee6a6c8cb158eb27c18d1db908"
+    },
+    "/wp-content/uploads/2026/01/Fatimah.png": {
+      "bytes": 31914,
+      "immutable": false,
+      "sha256": "5dd827da5e55b2ca2ad7f33c5089d95540c9b1a0e1fc6d5917d0f204ab18583a"
+    },
+    "/wp-content/uploads/2026/01/KPJ.png": {
+      "bytes": 11285,
+      "immutable": false,
+      "sha256": "51ff6848b3e7521d466f040004b281b418dc1b238d4b186f7516a38607e665ce"
+    },
+    "/wp-content/uploads/2026/01/OMG-Favicon.png": {
+      "bytes": 2058,
+      "immutable": false,
+      "sha256": "1bb8bbea4f8ce162d09d70b1b56a51575268ef666c45bee26902b99ffb8a8731"
+    },
+    "/wp-content/uploads/2026/01/OMG-Info-1.png": {
+      "bytes": 781910,
+      "immutable": false,
+      "sha256": "32e186a150629fbcf66029fe3a230a81124930b954d5eae95ef6749b2eca290e"
+    },
+    "/wp-content/uploads/2026/01/OMG-Info-Box-1.png": {
+      "bytes": 443561,
+      "immutable": false,
+      "sha256": "decd4e6c09295526cb5edf9b7b98573f86c94b0771f97d51c04e6effc9681650"
+    },
+    "/wp-content/uploads/2026/01/OMG-Logo-Blog.png": {
+      "bytes": 6227,
+      "immutable": false,
+      "sha256": "431543e84052a05f064f78beafb2b1a9b552f6370a83ef88d8316b7841f8dafc"
+    },
+    "/wp-content/uploads/2026/01/OMG-Text-1.png": {
+      "bytes": 16577,
+      "immutable": false,
+      "sha256": "afc31768226bd20598a0eb89d4cb7014d0bf11452d95617ead82b9908ed4283c"
+    },
+    "/wp-content/uploads/2026/01/OMG-Text-2.png": {
+      "bytes": 4843,
+      "immutable": false,
+      "sha256": "064d93d437b785577ae6e1192098415c5a08e964804e9596f8983863f8f7a92d"
+    },
+    "/wp-content/uploads/2026/01/Pantai.png": {
+      "bytes": 7799,
+      "immutable": false,
+      "sha256": "4a001fcd5bef28fff01a0995314e83f24bf78bf5425ef373ce40c1a82213bfd5"
+    },
+    "/wp-content/uploads/2026/01/Suhaimi.png": {
+      "bytes": 26460,
+      "immutable": false,
+      "sha256": "d7e0dd9918a308f0c6d4fe5e20eb24ef5104d85329dfeb3b6e21d78f74c51732"
+    },
+    "/wp-content/uploads/2026/01/Sunway.png": {
+      "bytes": 7283,
+      "immutable": false,
+      "sha256": "9fa678591be1760b1bce581627a92e1f40696a6f359e40a6562f26f6750e8cc4"
+    },
+    "/wp-content/uploads/2026/01/header-image.png": {
+      "bytes": 3257912,
+      "immutable": false,
+      "sha256": "47a8f4d9da31a8602600e5a0efc2b805593d4f25c1b78ae5862d85054c6a20f5"
+    },
+    "/wp-content/uploads/2026/02/Sarah-OMG-2.png": {
+      "bytes": 459588,
+      "immutable": false,
+      "sha256": "d6375d81fa442573308a018291999002c05446ce62e0ee83b9d8d23fce3796b4"
+    }
+  },
+  "version": 1
+}
